@@ -1,0 +1,80 @@
+.icon{
+    width:22px;
+    height:22px;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}
+.icon-lg{
+    width:24px;
+    height:24px;
+}
+.icon-photo{
+    width:32px;
+    height:32px;
+}
+.icon-38{
+    width:38;
+    height:38;
+}
+.icon-12{
+    width:12px;
+    height:12px;
+}
+.icon-circle{
+    background-image:url(./icon/circle.svg);
+}
+.icon-hamburger{
+    background-image:url(./icon/hamburger.svg);
+}
+.icon-home{
+    background-image:url(./icon/home.svg);
+}
+.icon-explores{
+    background-image:url(./icon/explore.svg);
+}
+.icon-shorts{
+    background-image:url(./icon/shorts.svg);
+}
+.icon-subscript{
+    background-image:url(./icon/subscript.svg);
+}
+.icon-library{
+    background-image:url(./icon/library.svg);
+}
+.icon-history{
+    background-image:url(./icon/history.svg);
+}
+.icon-your-video{
+    background-image:url(./icon/your-videos.svg);
+}
+.icon-watch{
+    background-image:url(./icon/watch.svg);
+}
+.icon-liked-video{
+    background-image:url(./icon/like.svg);
+}
+.icon-show{
+    background-image:url(./icon/show.svg);
+}
+.icon-search{
+    background-image:url(./icon/search.svg);
+}
+.icon-voice{
+    background-image:url(./icon/voice-search.svg);
+}
+.icon-create-video{
+    background-image:url(./icon/create-video.svg);
+}
+.icon-app{
+    background-image:url(./icon/apps.svg);
+}
+.icon-notice{
+    background-image:url(./icon/notification.svg);
+}
+.icon-arrow{
+    background-image:url(./icon/arrow.svg);
+}

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chaset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ders7</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <main class="page">
+            <input type="checkbox" class="menu-checkbox" id="menu-bar">
+            <aside class="left">
+                <div class="top">
+                    <label class="menu-bar" for="menu-bar">
+                        <i class="icon icon-hamburger"></i>
+                    </label>
+                    <a href="#">
+                        <img src="./img/youtube-logo.svg">
+                    </a>
+                </div>
+                <div class="navbar">
+                    <div>
+                        <a href="#" class="nav-link active">
+                            <i class="icon icon-lg icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-explores"></i>
+                            <span>Explores</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-shorts"></i>
+                            <span>Shorts</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-subscript"></i>
+                            <span>Subscriptions</span>
+                        </a>
+                    </div>
+                    <hr>
+                    <div>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-library"></i>
+                            <span>Library</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-history"></i>
+                            <span>History</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-your-video"></i>
+                            <span>Your videos</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-watch"></i>
+                            <span>Watch later</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-liked-video"></i>
+                            <span>Like videos</span>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <i class="icon icon-lg icon-show"></i>
+                            <span>Show more</span>
+                        </a>
+                    </div>
+                    
+                    <div class="subscription">
+                        <hr>
+                        <h3>SUBSCRIPTIONS</h3>
+                        <a href="#" class="nav-link" title="Nadir On The Go">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/nadir.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">Nadir On The Go Nadir On The Go</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-link" title="Coke Studio Bangla">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">Coke Studio Bangla</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-link" title="MKBHD">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/Mkbhd.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">MKBHD</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-link" title="Figma">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/figma.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">Figma</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-link" title="ATC Android ToTo C...">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/atc.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">ATC Android ToTo C</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-link" title="Alux.com">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/alux.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">Alux.com</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+
+                        <a href="#" class="nav-link" title="Alux.com">
+                            <figure class="icon icon-lg img">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div>
+                                <span class="line-clamp">Coke Studio Bangla</span>
+                                <span class="absolute"></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+            <div class="page-right">
+                <div class="head-and-button">
+                    <div class="head">
+                        <div class="search">
+                            <div>
+                            <input type="text" placeholder="Search">
+                            <span class="search-icon">
+                                <i class="icon icon-search"></i>
+                            </span>
+                            </div>
+                            <button>
+                                <i class="icon icon-voice"></i>
+                            </button>
+                        </div>
+                        <div class="button">
+                            <button class="btn-link">
+                                <i class="icon icon-lg icon-create-video"></i>
+                            </button>
+                            <button class="btn-link">
+                                <i class="icon icon-app"></i>
+                            </button>
+                            <button class="btn-link">
+                                <i class="icon icon-lg icon-notice"></i>
+                            </button>
+                            <div class="dropdown">
+                                <input type="checkbox" id="dropdown-menu">
+                                <label class="profile" for="dropdown-menu">
+                                    <figure class="icon icon-photo">
+                                        <img src="./img/nadir.svg">
+                                    </figure>
+                                </label>
+                                <div class="dropdown-content">
+                                   <div class="dropdown-body">
+                                     <div class="profil-top">
+                                        <div class="profil-img">
+                                           <figure class="icon icon-38">
+                                            <img src="./img/nadir.svg">
+                                           </figure>
+                                       </div>
+                                       <div class="profil-content">
+                                         <a class="link" href="#">Jonny Deep</a>
+                                         <a class="link fs-14"href="#">Jhonny-Deep@gmail.com</a>
+                                        </div>
+                                     </div>
+                                     <hr>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-brands fa-google"></i>
+                                        <span>Google Account</span>
+                                     </a>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-regular fa-user"></i>
+                                        <span>Switch between accounts</span>
+                                     </a>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-arrow-right-to-bracket"></i>
+                                        <span>Exit</span>
+                                     </a> 
+                                     <hr>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-moon"></i>
+                                        <span>Visible device theme</span>
+                                     </a> 
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-language"></i>
+                                        <span>Language</span>
+                                     </a>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-globe"></i>
+                                        <span>Location</span>
+                                     </a>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-keyboard"></i>
+                                        <span>Keyboard shortcuts</span>
+                                     </a>
+                                     <hr>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-gear "></i>
+                                        <span>Settings</span>
+                                     </a>
+                                     <a href="#" class="link">
+                                        <i class="icon fs-20 fa-solid fa-question"></i>
+                                        <span>Help</span>
+                                     </a>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="btn-container">
+                        <button class="btn active">All</button>
+                        <button class="btn">Cook Studio</button>
+                        <button class="btn">UX</button>
+                        <button class="btn">Case Study</button>
+                        <button class="btn">Music</button>
+                        <button class="btn">Bnagla Lofi</button>
+                        <button class="btn">Tour</button>
+                        <button class="btn">Saintmartin</button>
+                        <button class="btn">Tech</button>
+                        <button class="btn">Iphone 13</button>
+                        <button class="btn">User Interface Design</button>
+                        <button class="btn">Computer</button>
+                        <button class="btn">Case Study</button>
+                        <button class="btn">Music</button>
+                        <button class="btn">Bnagla Lofi</button>
+                        <button class="btn">Saintmartin</button>
+                        <button class="btn">Computer</button>
+                        <button class="btn">Case Study</button>
+                        <button class="btn">Music</button>
+                        <button class="btn">Bnagla Lofi</button>
+                        <button class="btn">Saintmartin</button>
+                        <button class="btn">Computer</button>
+                        <span>
+                            <i class="icon icon-arrow"></i>
+                        </span>
+                    </div>
+                    <hr class="line">
+                </div>
+                <div class="photo-body">
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum2.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum3.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum4.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum5.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum7.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum8.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum2.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum3.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum4.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum5.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum7.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum8.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <figure class="photo">
+                            <img src="./img/thum.svg">
+                        </figure>
+                        <div class="content">
+                            <figure class="photo-canal">
+                                <img src="./img/coke.svg">
+                            </figure>
+                            <div class="photo-footer">
+                                <h4>Bulbuli | Coke Studio Bangla |
+                                    Season One | Ritu Raj X Nandita
+                                </h4>
+                                <div class="tracking-1">
+                                    <p>Coke Studio Bangla</p>
+                                    <span>
+                                        <i class="icon icon-circle icon-12"></i>
+                                    </span>
+                                </div>
+                                <div class="tracking-2">
+                                    <p>1.5 M views</p>
+                                    <span></span>
+                                    <p>2 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                
+                </div>
+            </div>
+           </main>
+        </body>
+        </html>

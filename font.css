@@ -1,0 +1,42 @@
+
+.navbar .nav-link{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.navbar .nav-link.active{
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px; 
+}
+.search input::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+.btn-container .btn{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px; 
+}
+.tracking-1 p, .tracking-2 p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-20{
+    font-size: 17px;
+}
